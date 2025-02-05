@@ -1,1 +1,10 @@
 /* This is Mateusz's footer CSS Test */
+.footer-main {
+    background-color: #0b2949;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+
