@@ -1,10 +1,186 @@
 /* This is Mateusz's footer CSS Test */
-.footer-main {
-    background-color: #0b2949;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 40px;
+
+.site-footer{
+    border-left: 208px solid ;
+    border-right: 208px solid;
+    background-color: #0e2e4e;
+    border-color: #0e2e4e
 }
 
+.footer-subtitle{
+    font: 500 15px "Ubuntu", sans-serif;
+}
+.left-column .footer-subtitle {
+    color: #ffb901;
+}
+.instagram .footer-subtitle{
+    color: #de6262;
+}
+.mastodom .footer-subtitle {
+    color: #48d5fc;
+}
+.right-column .footer-subtitle {
+    color: #ffffff
+}
+
+
+.member-profile{
+    display: flex;
+    width: auto;
+    margin: auto;
+}
+
+.member-profile img{
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+    background-color: cadetblue;
+    margin: 32px;
+}
+
+.member-profile figcaption{
+    width: 546px;
+    height: 72px;
+    font: normal 12px "Ubuntu";
+    color: #ffffff;
+    display: flex; 
+    align-items: center; 
+    padding-top: 50px;
+}
+.footer-line {
+    width: 118px;
+    height: 3px;
+    background-color: #ffb901;
+    margin-left: 185px;
+}
+
+.footer-column-container {
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+.footer-column-container section{
+    margin: 2rem
+}
+
+
+.left-column {
+    width: 232px;
+    height: auto;
+}
+
+.footer-description {
+    font: normal 12px "Ubuntu";
+    color: #ffffff;
+}
+
+
+/* Possibly rename */
+.instagram {
+    width: 232px;
+    height: auto;    
+}
+
+    
+.column-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    width: 232px;
+    height: 224px;
+
+  }
+  
+  .column-images div {
+
+    width: 64px;
+    height: 64px;
+    border-radius: 2px;
+    margin: 8px;
+    background-color: black;
+  }
+
+.mastodom {
+    width: 320px;
+    height: auto;
+
+}
+.mastodom p {
+    font: 700 9px "Open Sans", sans-serif;
+    color: #ffffff;
+    text-align: justify;
+}
+.mastodom a {
+    color: #1bade6;
+}
+
+.right-column {
+    width: 144px;
+    height: auto;
+}
+
+.right-column-button {
+    width: 32px;
+    height: 32px; 
+    border: transparent;
+    border-radius: 2px;   
+}
+
+.right-column-button:nth-of-type(1) {
+    background-color: #527cc4;
+}
+
+.right-column-button:nth-of-type(2) {
+    background-color: #e46145;
+}
+
+.right-column-button:nth-of-type(3) {
+    background-color: #00b0e2;
+}
+
+.right-column-button:nth-of-type(4) {
+    background-color: #f6679c;
+}
+
+.right-column-button:nth-of-type(5) {
+    background-color: #ffb901;
+}
+
+.email-signup{
+    display: flex;
+    background-color: #de6262;
+    height: 32px;
+    border-radius: 2px;
+
+}
+.email-signup button {
+    width: 32px;
+    height: 32px; 
+    background-color: #ffb901;
+    border-color: transparent;
+    border-radius: 2px;
+}
+.email-input {
+    width: 112px;
+    height: 25px;
+    background-color: transparent;
+    border-color: transparent;
+}  
+
+.email-input::placeholder {
+    font: 400 normal "Myriad Pro", sans-serif;
+    color: #ffffff;
+}
+.email-signup svg {
+    height: 20px;
+    width: auto;
+    margin: auto;
+    fill: #ffffff;
+}
+
+.color-bar {
+    display: flex;
+}
+
+/* Add media query and lines under the content titles*/
