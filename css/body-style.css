@@ -330,6 +330,7 @@ line-height: normal;
 
 .gallery-item-container:hover .gallery-overlay {
     opacity: 1;
+    transition: 0.3s;
 }
 
 .first-client-logo {
