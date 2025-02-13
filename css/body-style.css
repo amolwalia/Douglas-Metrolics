@@ -94,12 +94,12 @@ main{
     gap: 16px;
 }
 
-.features-header {
+.section-box {
     margin-bottom: 31px;
     text-align: center;
 }
 
-.features-heading {
+.section-heading {
     color: #494949;
     font-size: 28px;
     font-style: normal;
@@ -108,7 +108,7 @@ main{
     margin-bottom: 8px;
 }
 
-.features-heading-description {
+.section-heading-description {
 color: #A3A3A3;
 text-align: center;
 font-family: "Myriad Pro";
@@ -116,6 +116,7 @@ font-size: 11px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 31px;
 }
 
 .features-list {
@@ -154,4 +155,67 @@ line-height: normal;
 
 .feature img {
     margin-bottom: 16px;
+}
+
+.blog-posts {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 16px;
+}
+
+.gallery-items {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.first-client-logo {
+    width: 147px;
+height: 49px;
+flex-shrink: 0;
+}
+
+.second-client-logo{
+    width: 113px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+.third-client-logo {
+    width: 158px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.fourth-client-logo{
+    width: 159px;
+    height: 42.7px;
+    flex-shrink: 0;
+}
+
+.testimonials-logo-box {
+    display: flex;
+width: 179px;
+height: 128px;
+padding: 5px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 2px;
+background: #F3F3F3;
+}
+
+.testimonials-logos {
+margin-top: 32px;
+display: flex;
+height: 128px;
+padding: 0px 16px;
+align-items: flex-start;
+align-content: flex-start;
+justify-content: center;
+gap: 32px;
+flex-wrap: wrap;
 }
