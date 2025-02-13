@@ -24,21 +24,6 @@
     text-align: center;
 }
 
-/* Things That We Do Section */
-.features {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.feature {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
-}
 
 /* Portfolio Section */
 .blog {

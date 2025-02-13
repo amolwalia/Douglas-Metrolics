@@ -51,12 +51,21 @@ body {
     border-left: 7.735px solid #ffb901;
 }
 
+.about {
+    text-align: center;
+    color: #3b3b3b;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    margin-bottom: 64px;
+}
+
 .about-highlited-text {
     color: #1eafde;
     font-size: 34px;
     font-style: normal;
     font-weight: 400;
-    line-height: var(--Font-lineheight_h1, 48px);
 }
 
 main{
@@ -141,4 +150,8 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: var(--Font-lineheight_body, 18px);
+}
+
+.feature img {
+    margin-bottom: 16px;
 }
