@@ -47,11 +47,14 @@
     align-items: center; 
     padding-top: 50px;
 }
+
 .footer-line {
+    margin-left: 185px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #ffb901;
     width: 118px;
     height: 3px;
-    background-color: #ffb901;
-    margin-left: 185px;
 }
 
 .footer-column-container {
@@ -179,8 +182,6 @@
     fill: #ffffff;
 }
 
-.color-bar {
-    display: flex;
-}
+
 
 /* Add media query and lines under the content titles*/
