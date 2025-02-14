@@ -1,11 +1,16 @@
 /* This is Mateusz's footer CSS Test */
-
-.site-footer{
-    border-left: 208px solid ;
-    border-right: 208px solid;
+.site-footer-container {
     background-color: #0e2e4e;
-    border-color: #0e2e4e
+    position: relative;
 }
+
+.site-footer {
+    margin: auto;
+    border-bottom: 150px solid;
+    border-color: #0e2e4e;
+    max-width: 1024px;
+}
+
 
 .footer-subtitle{
     font: 500 15px "Ubuntu", sans-serif;
@@ -13,11 +18,11 @@
 .left-column .footer-subtitle {
     color: #ffb901;
 }
-.instagram .footer-subtitle{
+.mid-left-column .footer-subtitle{
     color: #de6262;
 }
-.mastodom .footer-subtitle {
-    color: #48d5fc;
+.mid-right-column .footer-subtitle {
+    color: #19b2de;
 }
 .right-column .footer-subtitle {
     color: #ffffff
@@ -49,12 +54,12 @@
 }
 
 .footer-line {
-    margin-left: 185px;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: #ffb901;
     width: 118px;
     height: 3px;
+    background-color: #ffb901;
+    margin-left: 185px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .footer-column-container {
@@ -62,9 +67,6 @@
     justify-content:space-between ;
     flex-wrap: wrap;
     margin: 0;
-  }
-.footer-column-container section{
-    margin: 2rem
 }
 
 
@@ -78,13 +80,18 @@
     color: #ffffff;
 }
 
-
-/* Possibly rename */
-.instagram {
+.mid-left-column {
     width: 232px;
     height: auto;    
 }
 
+/*Minion Pictures*/
+.column-images img {
+    object-fit: cover;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
     
 .column-images {
     display: grid;
@@ -92,32 +99,32 @@
     gap: 8px;
     width: 232px;
     height: 224px;
-
-  }
+}
   
-  .column-images div {
-
+.column-images div {
+    border: #e1e1e1 solid 1px;
     width: 64px;
     height: 64px;
     border-radius: 2px;
-    margin: 8px;
     background-color: black;
-  }
+}
 
-.mastodom {
+/*What's New on Mastodon*/
+.mid-right-column {
     width: 320px;
     height: auto;
-
 }
-.mastodom p {
+
+.mid-right-column p {
     font: 700 9px "Open Sans", sans-serif;
     color: #ffffff;
     text-align: justify;
 }
-.mastodom a {
+.mid-right-column a {
     color: #1bade6;
 }
 
+/*Email Buttons*/
 .right-column {
     width: 144px;
     height: auto;
@@ -129,34 +136,31 @@
     border: transparent;
     border-radius: 2px;   
 }
-
 .right-column-button:nth-of-type(1) {
     background-color: #527cc4;
 }
-
 .right-column-button:nth-of-type(2) {
     background-color: #e46145;
 }
-
 .right-column-button:nth-of-type(3) {
     background-color: #00b0e2;
 }
-
 .right-column-button:nth-of-type(4) {
     background-color: #f6679c;
 }
-
 .right-column-button:nth-of-type(5) {
     background-color: #ffb901;
 }
+
+/*Email Thingy*/
 
 .email-signup{
     display: flex;
     background-color: #de6262;
     height: 32px;
     border-radius: 2px;
-
 }
+
 .email-signup button {
     width: 32px;
     height: 32px; 
@@ -164,24 +168,73 @@
     border-color: transparent;
     border-radius: 2px;
 }
+
 .email-input {
     width: 112px;
     height: 25px;
     background-color: transparent;
     border-color: transparent;
-}  
+}
 
 .email-input::placeholder {
     font: 400 normal "Myriad Pro", sans-serif;
+    font-size: 11px;
     color: #ffffff;
+    margin-left: 8.225px;
 }
+
 .email-signup svg {
-    height: 20px;
-    width: auto;
-    margin: auto;
+    width: 16px;
+    height: 17px;
     fill: #ffffff;
 }
 
+/*Color bar next to the email sign up thing*/
+
+.color-bar {
+    display: flex;
+}
+
+.color-bar div {
+    width: 55px;
+    height: 17px;
+    background-color: #ffffff;
+    border-color: #f6679c;
+    border-radius: 2px;
+}
 
 
-/* Add media query and lines under the content titles*/
+/*Color bar on the bottom of the footer*/
+
+.background-colorbar {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+.background-colorbar div {
+    background-color: white;
+    width: 54.4px; 
+    height: 17px;
+    position: static;
+}
+
+.background-colorbar div:nth-child(1) {
+    background-color: #25C389; 
+  }
+  
+.background-colorbar div:nth-child(2) {
+    background-color: #FFB901; 
+}
+
+.background-colorbar div:nth-child(3) {
+    background-color: #DE6262; 
+}
+  
+.background-colorbar div:nth-child(4) {
+    background-color: #1691BD; 
+}
+  
+.background-colorbar div:nth-child(5) {
+    background-color: #166BA2; 
+}
