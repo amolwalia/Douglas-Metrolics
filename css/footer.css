@@ -15,6 +15,7 @@
 .footer-subtitle{
     font: 500 15px "Ubuntu", sans-serif;
 }
+
 .left-column .footer-subtitle {
     color: #ffb901;
 }
@@ -131,6 +132,7 @@
 }
 
 .right-column-button {
+    
     width: 32px;
     height: 32px; 
     border: transparent;
