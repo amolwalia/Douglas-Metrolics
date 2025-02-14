@@ -82,3 +82,14 @@ body {
     margin-left: 17px;
     margin-bottom: 12px;
 }
+
+.nav-item:hover {
+    background-color: #F0F08C;
+    transition: 0.3s;
+}
+
+.nav-item:hover .nav-link {
+    color: #0057C2;
+    transition: 0.3s;
+}
+
